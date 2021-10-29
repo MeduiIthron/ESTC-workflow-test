@@ -1,0 +1,4 @@
+PROJECT_DIR = $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
+LIBRARIES_DIR = $(PROJECT_DIR)/libs
+OUTPUT_DIR = $(PROJECT_DIR)/out
+BINARY_DIR = $(PROJECT_DIR)/bin
